@@ -164,6 +164,11 @@ function draw()
   {
     bunny.changeAnimation('eating');
     eating_sound.play();
+
+    restart=createImg('reload.png');
+    restart.position(200, 100);
+    restart.size(50, 50);
+    restart.mouseClicked(reload);
   }
 
   if(fruit!=null && fruit.position.y>=650)
