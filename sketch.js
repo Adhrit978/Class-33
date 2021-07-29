@@ -171,7 +171,7 @@ function draw()
     restart.mouseClicked(reload);
   }
 
-  if(fruit!=null && fruit.position.y>=650)
+  if(fruit!=null && fruit.position.y>=canH-50)
   {
     bunny.changeAnimation('crying');
     bk_song.stop();
